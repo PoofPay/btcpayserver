@@ -32,7 +32,6 @@
                             <span>{{srvModel.btcDue}}</span> {{ srvModel.cryptoCode }}
                         </div>
                     </div>
-                    <div class="separatorGem"></div>
                     <div class="copySectionBox bottomBorder">
                         <label>{{$t("Address")}}</label>
                         <div class="inputWithIcon _copyInput">
@@ -40,7 +39,6 @@
                             <img v-bind:src="srvModel.cryptoImage"/>
                         </div>
                     </div>
-                    <div class="separatorGem" v-if="srvModel.invoiceBitcoinUrl"></div>
                     <div class="copySectionBox" v-if="srvModel.invoiceBitcoinUrl" :title="$t(hasPayjoin? 'BIP21 payment link' : 'BIP21 payment link with payjoin support') " >
                         <label>{{$t("Payment link")}}</label>
                         <div class="inputWithIcon _copyInput">

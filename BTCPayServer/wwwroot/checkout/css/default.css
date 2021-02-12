@@ -326,8 +326,7 @@ html {
 }
 
 body {
-    font-family: "Roboto", "Helvetica", sans-serif;
-    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
     line-height: 1.5;
     background-color: #fff;
     margin: 0;
@@ -8154,8 +8153,8 @@ a:hover {
 
 .action-button {
     color: #fff;
-    background-color: #51b13e;
-    border-color: #51b13e;
+    background-color: #32325d;
+    border-color: #32325d;
     padding: 12px;
     word-break: normal;
     font-size: 13px;
@@ -8208,8 +8207,8 @@ a:hover {
     }
 
     .action-button:hover {
-        background-color: #418e32;
-        border-color: rgba(28, 100, 222, 0);
+        background-color: #32325d;
+        border-color: #32325d;
         opacity: .95;
     }
 
@@ -8284,7 +8283,7 @@ strong {
 
 .top-header {
     color: #000;
-    background-color: #fff;
+    background-color: #f7fafc;
     font-weight: 500;
     letter-spacing: .5px;
 }
@@ -8333,7 +8332,7 @@ strong {
 /* eof */
 
 .top-header .timer-row {
-    background: #51b13e;
+    background: #32325d;
     color: #fff;
     display: flex;
     align-items: center;
@@ -8425,7 +8424,7 @@ strong {
     font-weight: 300;
     color: #565D6E;
     letter-spacing: .45px;
-    background: #fff;
+    background: #f7fafc;
     height: 40px;
 }
 
@@ -8438,6 +8437,7 @@ strong {
     letter-spacing: .45px;
     background: #fff;
     min-height: 67px;
+    background-color: #f7fafc;
 }
 
 .single-item-order__left {
@@ -8538,6 +8538,7 @@ strong {
     position: relative;
     background: #fff;
     border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
     display: flex;
     font-size: 13.5px;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.09);
@@ -8552,10 +8553,11 @@ strong {
     outline: none;
     letter-spacing: .8px;
     cursor: pointer;
+    background-color: #f7fafc;
 }
 
     .payment-tabs__tab.active {
-        background: #f5f5f5;
+        background: #f7fafc;
         font-weight: 400;
         transition: all .2s ease;
     }
@@ -8564,7 +8566,7 @@ strong {
     position: absolute;
     height: 3px;
     width: 50%;
-    background: #51b13e;
+    background: #32325d;
     bottom: 0;
     right: 50%;
     transition: all .2s ease;
@@ -8827,7 +8829,7 @@ strong {
     transform: rotateZ(45deg);
     margin-left: -5px;
     top: -5px;
-    background: #51b13e;
+    background: #32325d;
     transform-style: preserve-3d;
     backface-visibility: hidden;
 }
@@ -9036,10 +9038,12 @@ strong {
     margin-bottom: 1.5rem !important;
     margin-bottom: 0 !important;
     min-height: 393px;
+    background-color:#f7fafc;
 }
 
     .payment-box.with-recommended-fee {
         min-height: 430px;
+        border-radius: 10px;
     }
 
 .paypro {
@@ -9307,7 +9311,7 @@ strong {
 }
 
 .status-icon--error .status-icon__wrapper__outline {
-    border-color: #51b13e;
+    border-color: #32325d;
 }
 
 .status-icon--error .status-icon__wrapper__icon {
@@ -9334,7 +9338,7 @@ strong {
     border-radius: 50%;
     height: 154px;
     width: 154px;
-    border: 5px solid #51b13e;
+    border: 5px solid #32325d;
 }
 
 .status-icon__wrapper__icon {
@@ -9430,7 +9434,7 @@ strong {
 
     .btnGroupLnd button {
         display: table-cell;
-        border: solid 1px #51b13e;
+        border: solid 1px #32325d;
         background-color: #fff;
         padding: 6px 9px;
         margin: 0px;
@@ -9447,8 +9451,8 @@ strong {
         }
 
         .btnGroupLnd button.active {
-            background-color: #51b13e;
-            border-color: #51b13e;
+            background-color: #32325d;
+            border-color: #32325d;
             color: #fff;
         }
 
@@ -10122,6 +10126,7 @@ All mobile class names should be prefixed by m- */
 .page .modal-content.long {
     transition: none !important;
     transform: none !important;
+    border-radius:10px;
 }
 
 .modal.in .modal-dialog {
@@ -11260,6 +11265,7 @@ line-items {
     line-items .line-items {
         padding: 10px 1rem;
         color: #565D6E;
+        background-color: #f7fafc;
     }
 
     line-items .line-items__header {
@@ -11396,6 +11402,7 @@ low-fee-timeline {
 
 .copySectionBox {
     padding: 12px 10px;
+    background-color: #f7fafc;
 }
 
     .copySectionBox label {
@@ -11421,7 +11428,7 @@ low-fee-timeline {
     transform: rotateZ(45deg);
     margin-left: -5px;
     top: -5px;
-    background: #51b13e;
+    background: #32325d;
     transform-style: preserve-3d;
     backface-visibility: hidden;
     margin-bottom: -10px;
@@ -11533,7 +11540,7 @@ low-fee-timeline {
 
 
 .btn-link {
-    color: #51b13e;
+    color: #32325d;
 }
 
     .btn-link:hover {
@@ -11548,7 +11555,7 @@ low-fee-timeline {
 }
 
     .powered__by__btcpayserver a {
-        color: #51b13e;
+        color: #32325d;
     }
 
         .powered__by__btcpayserver a:hover {
